@@ -119,6 +119,6 @@ struct EnumeracionesView: View {
 struct EnumeracionesView_Previews: PreviewProvider {
     static var previews: some View {
         // Se muestra la vista con un subtema de ejemplo
-        EnumeracionesView(temaSeleccionado: .tiposDeDatos)
+        EnumeracionesView(temaSeleccionado: .tiposDatos)
     }
 }
