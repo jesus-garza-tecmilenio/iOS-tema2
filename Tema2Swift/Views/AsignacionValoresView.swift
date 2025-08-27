@@ -51,3 +51,10 @@ struct AsignacionValoresView: View {
         .padding()
     }
 }
+
+// Vista previa para desarrollo y aprendizaje
+struct AsignacionValoresView_Previews: PreviewProvider {
+    static var previews: some View {
+        AsignacionValoresView()
+    }
+}

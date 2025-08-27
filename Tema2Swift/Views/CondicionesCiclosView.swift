@@ -85,3 +85,10 @@ struct CondicionesCiclosView: View {
         }
     }
 }
+
+// Vista previa para desarrollo y aprendizaje
+struct CondicionesCiclosView_Previews: PreviewProvider {
+    static var previews: some View {
+        CondicionesCiclosView()
+    }
+}

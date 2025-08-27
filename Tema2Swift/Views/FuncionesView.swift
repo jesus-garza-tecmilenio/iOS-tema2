@@ -83,3 +83,10 @@ struct FuncionesView: View {
         return Double(num1 + num2) / 2.0
     }
 }
+
+// Vista previa para desarrollo y aprendizaje
+struct FuncionesView_Previews: PreviewProvider {
+    static var previews: some View {
+        FuncionesView()
+    }
+}

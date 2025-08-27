@@ -97,3 +97,10 @@ struct ColeccionesView: View {
         }
     }
 }
+
+// Vista previa para desarrollo y aprendizaje
+struct ColeccionesView_Previews: PreviewProvider {
+    static var previews: some View {
+        ColeccionesView()
+    }
+}

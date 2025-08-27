@@ -38,3 +38,10 @@ struct TiposDatosView: View {
         .padding()
     }
 }
+
+// Vista previa para desarrollo y aprendizaje
+struct TiposDatosView_Previews: PreviewProvider {
+    static var previews: some View {
+        TiposDatosView()
+    }
+}
